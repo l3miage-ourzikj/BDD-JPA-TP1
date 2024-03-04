@@ -7,16 +7,13 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-@Table(name = "brand_entity")
+
 public class Brand_entity {
     @Id
-    @Column(name = "company_name")
     private String company_name;
 
-    @Column (name = "siret_number",length = 11)
     private String siretNumber;
 
-    @Column(name = "type")
     @Enumerated(EnumType.ORDINAL)
     private BrandType type;
 
