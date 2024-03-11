@@ -18,6 +18,6 @@ Il va donc procéder à sa création et on remarque ce qui suit:
  - **unique = true** -> contrainte d'unicité de la valeur dans le champs (colonne)
 
 ### Question 3: À votre avis, dans quels cas est-il nécessaire de mettre les annotations @Column ?
-Il est nécessaire de mettre les annotation **@Column** lorsqu'on est en mode **validate** et donc on est obliger de bien détailler les types des attributs ainsi que leurs contraintes pour que JPA puisse le valider ou pas avec le schéma de la table existante.
+Il est nécessaire de mettre les annotation **@Column** lorsqu'on est en mode **validate** et donc on est obligé de bien détailler les types des attributs ainsi que leurs contraintes pour que JPA puisse le valider ou pas avec le schéma de la table existante.
 Ou bien on rajoute l'annotation **@Column** lorsqu'on veut spécifier une **contrainte** même si on est sur un autre mode, en l'occurence **create-drop**.
    
